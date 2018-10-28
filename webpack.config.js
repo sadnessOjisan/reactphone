@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/main.tsx',
     output: {
       path: path.resolve(__dirname, './dist'),
-      filename: 'bundle.js'
+      filename: 'build.js'
     },
     module: {
       rules: [
@@ -21,6 +21,10 @@ module.exports = {
         '.ts', '.tsx', '.js', '.json'
       ],
     },
-    plugins: [new HtmlWebpackPlugin()]
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: "./src/index.html"
+      })
+    ]
   };
   
