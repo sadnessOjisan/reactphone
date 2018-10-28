@@ -6,6 +6,8 @@
   "author": "sadness_ojisan <sadness.ojisan@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/react": "^16.4.18",
+    "@types/react-dom": "^16.0.9",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "styled-components": "^4.0.2"
