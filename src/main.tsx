@@ -1,5 +1,7 @@
 import * as React from 'react'; 
+import * as ReactDOM from "react-dom";
 
-export default () => {
-    return <p>hello world</p>
-}
+ReactDOM.render(
+    <p>hello world</p>,
+    document.getElementById('root')
+);
